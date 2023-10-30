@@ -28,11 +28,11 @@ const mainGame = () => {
     userPrompt = parseInt(userPrompt)
     // Verification of User Answer
     if (typeof(userPrompt) != "number") {
-        console.log("THAT IS NOT AN OPTIONS BLYAAT!")
+        console.log("THAT IS NOT AN OPTION BLYAAT!")
         process.exit()
     }
     if (userPrompt > 2) {
-        console.log("THAT IS NOT AN OPTIONS BLYAAT!")
+        console.log("THAT IS NOT AN OPTION BLYAAT!")
         process.exit()
     }
     
