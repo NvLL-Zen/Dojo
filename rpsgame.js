@@ -53,7 +53,6 @@ const mainGame = () => {
         console.log(`User wins with ${options[userPrompt]} vs ${options[computePrompt]}!`)
     }
     else if (computePrompt > userPrompt) {
-        console.log(computePrompt)
         console.log(`Computer wins with ${options[computePrompt]} vs ${options[userPrompt]} !`)
     }
 }
