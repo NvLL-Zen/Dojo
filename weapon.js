@@ -5,8 +5,13 @@ class Weapon {
         this.name = name;
         this.category = category;
         this.nationality = nationality
-        this.shoot = () => {
-            console.log("PEW! PEW! BLYAAAT!");
+        this.shoot = (state="Normal") => {
+            if (state == "Normal"){
+                console.log("PEW! PEW! BLYAAAT!");
+            }
+            else if (state == "Headshot") { 
+                console.log("BANG! HEADSHOT CYKAA!")
+            }
         };
     }
 }
@@ -17,3 +22,4 @@ console.log(AK47.name)
 console.log(AK47.category)
 console.log(AK47.nationality)
 AK47.shoot()
+AK47.shoot("Headshot")
