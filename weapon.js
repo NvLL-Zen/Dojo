@@ -5,8 +5,8 @@ class Weapon {
         this.name = name;
         this.category = category;
         this.nationality = nationality
-        this.shoot = (state="Normal") => {
-            if (state == "Normal"){
+        this.shoot = (state="Body") => {
+            if (state == "Body"){
                 console.log("PEW! PEW! BLYAAAT!");
             }
             else if (state == "Headshot") { 
